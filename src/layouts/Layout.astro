@@ -1,4 +1,5 @@
 ---
+import Header from '../components/cra-project/Header.jsx';
 interface Props {
   title: string;
   description?: string;
@@ -32,6 +33,7 @@ const {
     <title>{title}</title>
   </head>
   <body>
+    <Header />
     <slot />
   </body>
 </html>
